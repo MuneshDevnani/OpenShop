@@ -1,0 +1,23 @@
+    <div className="col-md-3">
+                    {/* product pic */}
+                    <img style={{height:'350px', width:'280px'}} src={this.state.item.productImage} alt="this is a product" />
+                </div>
+
+                <div className="col-md-6">
+                    {/* Product details */}
+                    <h3>{this.state.item.name}</h3>
+                    <h2 style={{ color: '#3498db' }}>Rs. {this.state.item.price}</h2>
+                    <h4 style={{ color: '#95a5a6' }}>{this.state.item.desc}</h4>
+                    <div className="row" style={{marginTop:'30px'}}>
+                        <div className="col-md-4">
+                            <button className="btn btn-warning">
+                                <i className="fa fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                        <div className="col-md-4">
+                            <button className="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                <i className="fa fa-money-bill-alt"></i> Buy Now!
+                            </button>
+                        </div>
+                    </div>
+                </div>

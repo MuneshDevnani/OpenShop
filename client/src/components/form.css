@@ -1,0 +1,26 @@
+input{
+    
+    margin-bottom:10px; /*or whatever you want the spacing to be*/
+    }   
+   .panel-default {
+    opacity: 0.9;
+    margin-top:30px;
+   }
+   .form-group.last {
+    margin-bottom:0px;
+   }
+   .area{
+    background-color: #fff;
+   }
+   .container{
+       padding-top: 40px;
+       opacity: 0.95;
+   }
+  .nav-item{
+      margin: 5px;
+  }
+  .nav-item :hover{
+    transform: scale(1.2);
+    color: #ec8f90;
+    
+  }

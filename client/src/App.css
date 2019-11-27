@@ -1,0 +1,20 @@
+.pull-right {
+  float: right;
+}
+.body { 
+  background: url('./images/img4.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 780px;
+  margin-top: -20px;
+ }
+ .cartno{
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    border-radius: 50%;
+    height: 14px;
+    width: 8px;
+ }
